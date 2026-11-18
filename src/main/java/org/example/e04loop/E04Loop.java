@@ -35,5 +35,15 @@ public class E04Loop {
             }
             System.out.println("================================");
         }
+
+        int minDan = 2;
+        int maxDan = 9;
+        int minMultiCnt = 1;
+        for(int i = minDan; i <= maxDan; i++) {
+            System.out.printf("** %d단 ** %n", i);
+            for(int z = minMultiCnt; z < maxDan; z++) {
+                System.out.printf("%d X %d = %d%n", i, z, (i * z));
+            }
+        }
     }
 }
