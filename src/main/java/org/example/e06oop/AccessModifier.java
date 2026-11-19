@@ -36,7 +36,7 @@ public class AccessModifier {
         return this.strPrivate;
     }
 
-    public Whale getWhale() {
-        return new Whale();
-    }
+    // public Whale getWhale() {
+    //     return new Whale();
+    // }
 }
